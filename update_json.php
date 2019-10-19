@@ -2,11 +2,12 @@
 
 <?php
   header('Content-Type: text/plain');
-  $data = utf8_encode($_POST['data']); 
+  $data = utf8_encode($_POST['json']); 
   // $data = json_decode($test);
 	
 	try{
-		$bytes = file_put_contents("test.json", $data);
+		$bytes = file_put_contents($_POST['filename'], $data);
+		// $bytes = file_put_contents("{$_POST['filename']}", $data);
 		if($bytes){
 			
 			echo "Archivo Guardado".$bytes;

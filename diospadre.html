@@ -170,42 +170,52 @@
 					var source_json;
 					e.preventDefault();
 					console.log("Guardar Ubicacion")
-					console.log("Data", self.o )
 					
 					$.getJSON(self.o.source, function(data) {
 						source_json = data;
+						
+						console.log("Data", self.o )
+						
+						new_location = 
+						{
+							"id": $("#id_location").val(),
+							"title": $("#title").val(),
+							"about": $("#about").val(),
+							"description": $("#description").val(),
+							"category": $("#category").val(),
+							"x": $("#x").val(),
+							"y": $("#y").val(),
+							"zoom": "2",
+							"pin": "p"
+						};
+						
+						source_json.levels[0].locations.push(new_location);
+						
+						console.log("New data", source_json);
+						
+						$.ajax({
+							url: "update_json.php",
+							method: "POST",
+							data: {
+								"json": JSON.stringify(source_json),
+								"filename": self.o.source
+								
+							}
+							
+							}).done(function(respuesta){
+							
+							alert(respuesta);
+							console.log(respuesta);
+							
+						})
+						
 						}).fail(function() { // Failure: couldn't load JSON file or it is invalid.
 						console.error('Couldn\'t load map data. (Make sure to run the script through web server)');
 						
 					});
 					
-					new_location = 
-					{
-						"id": $("#id_location").val(),
-						"title": $("#title").val(),
-						"about": $("#about").val(),
-						"description": $("#description").val(),
-						"category": $("#category").val(),
-						"x": $("#x").val(),
-						"y": $("#y").val(),
-						"zoom": "2",
-						"pin": "pin"
-					};
 					
-					source_json.levels[0].locations.push(new_location);
 					
-					console.log("New data", source_json);
-					
-					$.ajax({
-						url: "update_json.php",
-						method: "POST",
-						data: {"data": JSON.stringify(source_json)}
-						
-						}).done(function(respuesta){
-						
-						console.log(respuesta);
-						
-					})
 					<!-- $(this).find("input").each(function(index, item){ -->
 					<!-- new_locations =  -->
 					
