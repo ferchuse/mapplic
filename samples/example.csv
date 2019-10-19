@@ -1,0 +1,5 @@
+id,title,description,fill,category,x,y,lat,lng,pin,label,image
+de-by,Bayern,With automatically calculated coordinates.,#4d5e6d,states,,,,,hidden,,
+de-hb,Bremen,"Just an ordinary, clickable state.",#4d5e6d,states,0.3571,0.2211,,,hidden,,
+koln,Köln,Cologne is the largest city of Germany's most populous federal state of North Rhine-Westphalia.,#DD3C38,cities,,,50.941248,6.956796,pin-label pin-dot,Köln,https://source.unsplash.com/4DA9rSWkI5k/300x150
+leipzig,Leipzig,Cities are positioned using real lat/lng coordinates as this map is <b>Geocalibrated</b>.,#DD3C38,cities,,,51.340464,12.374761,pin-label pin-dot,Leipzig,

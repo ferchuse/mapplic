@@ -1,0 +1,106 @@
+{
+	"mapwidth": "2400",
+	"mapheight": "1697",
+	"topLat": "84.83382568312074",
+	"leftLng": "-181.9372873759479",
+	"bottomLat": "-67.8325574122815",
+	"rightLng": "201.2439555495492",
+	"categories": [
+		{
+			"id": "us-states",
+			"title": "Show US",
+			"legend": "true",
+			"toggle": "true",
+			"switchoff": "true" 
+		}
+	],
+	"levels": [
+		{
+			"id": "world-us",
+			"title": "World + US",
+			"map": "maps/world-us.svg",
+			"locations": [
+				{
+					"id": "pos",
+					"title": "Position",
+					"about": "Your Geolocation",
+					"description": "<p>You can show the visitor's location with some code presented in this example.</p>",
+					"pin": "pin-label pin-ribbon",
+					"label": "Position",
+					"x": "0.5",
+					"y": "0.5"
+				},
+				{
+					"id": "us-wa",
+					"title": "Washington",
+					"description": "<p>The Evergreen State</p>",
+					"link": "http://en.wikipedia.org/wiki/Washington_(state)",
+					"pin": "hidden",
+					"category": "us-states",
+					"x": "0.1602",
+					"y": "0.4554"
+				},
+				{
+					"id": "us-il",
+					"title": "Illinois",
+					"description": "<p>Three U.S. presidents have been elected while living in Illinois</p>",
+					"link": "http://en.wikipedia.org/wiki/Illinois",
+					"pin": "hidden",
+					"category": "us-states",
+					"x": "0.2419",
+					"y": "0.4916"
+				},
+				{
+					"id": "se",
+					"title": "Sweden",
+					"description": "<p>Location description.</p>",
+					"pin": "hidden",
+					"x": "0.5145",
+					"y": "0.3533"
+				},
+				{
+					"id": "us-losangeles",
+					"title": "Los Angeles",
+					"description": "<p>The city of Angels</p>",
+					"label": "LA",
+					"pin": "circular pin-md pin-label",
+					"category": "us-states",
+					"x": "0.1602",
+					"y": "0.5176"
+				},
+				{
+					"id": "us",
+					"title": "United States",
+					"pin": "hidden no-fill",
+					"action": "reveal",
+					"category": "us-states"
+				},
+				{
+					"id": "au-sydney",
+					"title": "Sydney",
+					"description": "<p>Example child location, reveal feature.</p>",
+					"label": "S",
+					"pin": "circular pin-md pin-label",
+					"lat": "-33.869582",
+					"lng": "151.212094"
+				},
+				{
+					"id": "au-losangeles",
+					"title": "Los Angeles",
+					"description": "<p>Example child location, reveal feature.</p>",
+					"label": "M",
+					"pin": "circular pin-md pin-label",
+					"lat": "-37.813016",
+					"lng": "144.960152"
+				},
+				{
+					"id": "au",
+					"title": "Australia",
+					"pin": "hidden no-fill",
+					"action": "reveal",
+					"category": "us-states"
+				}
+			]
+		}
+	]
+}

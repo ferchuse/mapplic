@@ -1,0 +1,43 @@
+{
+	"mapwidth":"598",
+	"mapheight":"598",
+	"topLat": "55.24345276412021",
+	"leftLng": "3.8907050668630125",
+	"bottomLat": "47.05917222342128",
+	"rightLng": "16.983844168134127",
+	"categories":[
+		{
+			"id": "states",
+			"title": "States",
+			"color": "#4d5e6d",
+			"legend": "true"
+		},
+		{
+			"id": "cities",
+			"title": "Cities",
+			"color": "#DD3C38",
+			"toggle": "true",
+			"legend": "true"
+		}
+	],
+	"levels":[
+		{
+			"id":"germany",
+			"title":"Germany",
+			"map":"maps/germany.svg",
+			"minimap": "maps/germany-mini.jpg",
+			"locations":[
+				{
+					"id": "de-ni",
+					"title": "Niedersachsen",
+					"description": "<p>The only location in the JSON file.</p><p>The rest of the locations are loaded from example.csv as a demonstration of CSV support.</p>",
+					"pin": "hidden",
+					"category": "states",
+					"fill": "#4d5e6d",
+					"x": "0.4049",
+					"y": "0.2675"
+				}
+			]
+		}
+	]
+}

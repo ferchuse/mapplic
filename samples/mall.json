@@ -1,0 +1,276 @@
+{
+	"mapwidth": "1000",
+	"mapheight": "500",
+	"categories": [
+		{
+			"id": "fashion",
+			"title": "Fashion",
+			"about": "Cothing & Accessories",
+			"color": "#FF9595"
+		},
+		{
+			"id": "health",
+			"title": "Health",
+			"about": "Health & Cosmetics",
+			"color": "#FFB985"
+		},
+		{
+			"id": "food",
+			"title": "Food",
+			"about": "Fast-foods & Restaurants",
+			"icon": "images/food.svg",
+			"color": "#A5C882"
+		},
+		{
+			"id": "dep",
+			"title": "Department Stores",
+			"about": "Wide wariety of goods",
+			"color": "#8DB3DC"
+		},
+		{
+			"id": "others",
+			"title": "Others",
+			"color": "#D3B8F8"
+		},
+		{
+			"id": "nopointer-logos",
+			"title": "Logos",
+			"toggle": "true",
+			"legend": "true",
+			"hide": "true"
+		}
+	],
+	"levels": [
+		{
+			"id": "underground",
+			"title": "Underground",
+			"map": "maps/mall/mall-underground.svg",
+			"minimap": "maps/mall/mall-underground-mini.jpg",
+			"locations": [
+				{
+					"id": "gap",
+					"title": "GAP",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.3781",
+					"y": "0.4296"
+				},
+				{
+					"id": "petco",
+					"title": "Petco",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "others",
+					"x": "0.5311",
+					"y": "0.2686"
+				}
+			]
+		},
+		{
+			"id": "ground-floor",
+			"title": "Ground Floor",
+			"map": "maps/mall/mall-ground.svg",
+			"minimap": "maps/mall/mall-ground-mini.jpg",
+			"show": "true",
+			"locations": [
+				{
+					"id": "nordstrom",
+					"title": "Nordstrom",
+					"about": "Lorem ipsum dolor sit amet.",
+					"description": "<p>Recognizing the need is the primary condition for design.</p>",
+					"category": "dep, fashion",
+					"x": "0.7856",
+					"y": "0.2022",
+					"zoom": "3"
+				},
+				{
+					"id": "macys",
+					"title": "Macy's",
+					"description": "Macy's <i>department</i> store",
+					"category": "dep",
+					"x": "0.2021",
+					"y": "0.5847",
+					"zoom": "2"
+				},
+				{
+					"id": "jcpenney",
+					"title": "JCPenney",
+					"about": "Lorem ipsum",
+					"description": "JCPenney store",
+					"category": "dep",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.6651",
+					"y": "0.6734",
+					"zoom": "3"
+				},
+				{
+					"id": "walgreens",
+					"title": "Walgreens",
+					"about": "Lorem ipsum",
+					"description": "At the corner of Happy & Healthy",
+					"category": "health",
+					"x": "0.4611",
+					"y": "0.5426"
+				},
+				{
+					"id": "sephora",
+					"title": "Sephora",
+					"about": "Lorem ipsum",
+					"description": "Makeup, fragrance, skincare",
+					"category": "health",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.7504",
+					"y": "0.5211"
+				},
+				{
+					"id": "geox",
+					"title": "Geox",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum dolor sit amet</p>",
+					"category": "fashion",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.3947",
+					"y": "0.5544"
+				},
+				{
+					"id": "hnm",
+					"title": "H&M",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.6445",
+					"y": "0.4478"
+				},
+				{
+					"id": "adidas",
+					"title": "Adidas",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.3688",
+					"y": "0.3909"
+				},
+				{
+					"id": "massimodutti",
+					"title": "Massimo Dutti",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"x": "0.6243",
+					"y": "0.2655"
+				},
+				{
+					"id": "starbucks",
+					"title": "Starbucks",
+					"about": "Lorem ipsum",
+					"description": "The coffee company",
+					"category": "food",
+					"x": "0.5431",
+					"y": "0.5240"
+				},
+				{
+					"id": "zara",
+					"title": "Zara",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.4785",
+					"y": "0.2873"
+				}
+			]
+		},
+		{
+			"id": "first-floor",
+			"title": "First Floor",
+			"map": "maps/mall/mall-first.svg",
+			"minimap": "maps/mall/mall-first-mini.jpg",
+			"locations": [
+				{
+					"id": "applebees",
+					"title": "Applebee's",
+					"about": "Lorem ipsum",
+					"description": "See you tomorrow",
+					"category": "food",
+					"x": "0.7536",
+					"y": "0.2196"
+				},
+				{
+					"id": "kfc",
+					"title": "KFC",
+					"about": "Lorem ipsum",
+					"description": "Kentucky Fried Chicken",
+					"category": "food",
+					"x": "0.7488",
+					"y": "0.4997"
+				},
+				{
+					"id": "mcdonalds",
+					"title": "McDonald's",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "food",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.7374",
+					"y": "0.3918"
+				},
+				{
+					"id": "pizzahut",
+					"title": "Pizza Hut",
+					"about": "Lorem ipsum",
+					"description": "Make it great",
+					"category": "food",
+					"x": "0.7092",
+					"y": "0.5232"
+				},
+				{
+					"id": "subway",
+					"title": "Subway",
+					"about": "Lorem ipsum",
+					"description": "Eat fresh.",
+					"category": "food",
+					"x": "0.6278",
+					"y": "0.2731"
+				},
+				{
+					"id": "cvs",
+					"title": "CVS Pharmacy",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum <a href=\"http://www.codecanyon.net\">dolor sit</a> amet, consectetur.",
+					"category": "health",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.5104",
+					"y": "0.2471"
+				},
+				{
+					"id": "pullnbear",
+					"title": "Pull & Bear",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.4846",
+					"y": "0.2946"
+				},
+				{
+					"id": "amc",
+					"title": "AMC Theatres",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.6671",
+					"y": "0.6851"
+				},
+				{
+					"id": "atnt",
+					"title": "AT&T",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.3750",
+					"y": "0.5391"
+				}
+			]
+		}
+	]
+}

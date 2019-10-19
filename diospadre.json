@@ -1,0 +1,307 @@
+{
+	"mapwidth": "2500",
+	"mapheight": "1810",
+	"topLat": "20.464563",
+	"leftLng": "-99.191005",
+	"bottomLat": "20.463446",
+	"rightLng": "-99.188967",
+	"categories": [
+		{
+			"id": "locations",
+			"title": "Servicios",
+			"color": "#63aa9c",
+			"show": "true"
+		},
+		
+		
+		
+		{
+			"id": "sanitarios",
+			"title": "Sanitarios",
+			"color": "#4cd3b8",
+			"show": "true"
+		},
+		
+		{
+			"id": "Palapas",
+			"title": "Palapas",
+			"color": "#4cd3b8",
+			"show": "true"
+		},
+		
+		
+		{
+			"id": "estacionamientos",
+			"title": "Estacionamientos",
+			"color": "#4cd3b8",
+			"show": "true"
+		}
+	],
+	"levels": [ 
+		 
+		{
+			"id": "upper",
+			"title": "Upper Level",
+			"map": "maps/apartment/upper.jpg",
+			"minimap": "maps/apartment/upper-small.jpg",
+			"locations": [
+			    {
+					"id": "pos",
+					"title": "Position",
+					"about": "Your Geolocation",
+					"description": "<p>You can show the visitor's location with some code presented in this example.</p>",
+					"pin": "pin-label pin-ribbon",
+					"label": "Position",
+					"x": "0.5",
+					"y": "0.5"
+				},
+				{
+					"id": "22",
+					"title": "Campo Futbol",
+					"about": "Ven a Jugar",
+					"description": "<p>Ven a jugar</p>",
+					"pin": "b",
+					"category": "locations",
+					"x": "0.72",
+					"y": "0.046",
+					"zoom": "2"
+				},
+				
+				{
+					"id": "E2",
+					"title": "Estacionamiento",
+					"about": "Interno",
+					"description": "Espacio interno de estacionamiento para nuestos visitantes",
+					"category": "estacionamientos",
+					"x": "0.70",
+					"y": "0.76",
+					"zoom": "2",
+					"pin": "E"
+				},
+				
+				
+				
+					{
+					"id": "E3",
+					"title": "Estacionamiento",
+					"about": "Interno",
+					"description": "Espacio interno de estacionamiento para nuestos visitantes",
+					"category": "estacionamientos",
+					"x": "0.53",
+					"y": "0.77",
+					"zoom": "2",
+					"pin": "E"
+				},
+				
+					{
+					"id": "E4",
+					"title": "Estacionamiento",
+					"about": "Interno",
+					"description": "Espacio interno de estacionamiento para nuestos visitantes",
+					"category": "estacionamientos",
+					"x": "0.31",
+					"y": "0.80",
+					"zoom": "2",
+					"pin": "E" 
+				},
+				
+				{
+					"id": "E5",
+					"title": "Estacionamiento",
+					"about": "Interno",
+					"description": "Espacio interno de estacionamiento para nuestos visitantes",
+					"category": "estacionamientos",
+					"x": "0.50",
+					"y": "0.20",
+					"zoom": "2",
+					"pin": "E" 
+				},
+				
+				{
+					"id": "Sa-2",
+					"title": "Sanitarios",
+					"about": "servicio de sanitarios",
+					"description": "sanitarios",
+					"category": "sanitarios",
+					"x": "0.75",
+					"y": "0.42",
+					"zoom": "2",
+					"pin": "s"
+				},
+				
+				{
+					"id": "Sa-3",
+					"title": "Sanitarios",
+					"about": "servicio de sanitarios",
+					"description": "sanitarios",
+					"category": "sanitarios",
+					"x": "0.64",
+					"y": "0.43",
+					"zoom": "2",
+					"pin": "s"
+				},
+				
+				
+				{
+					"id": "Sa-4",
+					"title": "Sanitarios",
+					"about": "servicio de sanitarios",
+					"description": "sanitarios",
+					"category": "sanitarios",
+					"x": "0.76",
+					"y": "0.68",
+					"zoom": "2",
+					"pin": "s"
+				},
+				
+				{
+					"id": "Sa-5", 
+					"title": "Sanitarios",
+					"about": "servicio de sanitarios",
+					"description": "sanitarios",
+					"category": "sanitarios",
+					"x": "0.53",
+					"y": "0.299",
+					"zoom": "2",
+					"pin": "s"
+				},
+				
+					{
+					"id": "Sa-6", 
+					"title": "Sanitarios",
+					"about": "servicio de sanitarios",
+					"description": "sanitarios",
+					"category": "sanitarios",
+					"x": "0.11",
+					"y": "0.54",
+					"zoom": "2",
+					"pin": "s"
+				},
+				
+				{
+					"id": "Sa-1",
+					"title": "Sanitarios",
+					"about": "servicio de sanitarios",
+					"description": "sanitarios",
+					"category": "sanitarios",
+					"x": "0.81",
+					"y": "0.14",
+					"zoom": "2",
+					"pin": "s"
+				},
+				
+				{
+					"id": "pa-2",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.24",
+					"y": "0.54",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+					{
+					"id": "pa-3",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.36",
+					"y": "0.41",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+			
+				
+				
+					{
+					"id": "pa-4",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.42",
+					"y": "0.57",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+					{
+					"id": "pa-5",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.53",
+					"y": "0.41",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+					{
+					"id": "pa-6",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.58",
+					"y": "0.51",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+					{
+					"id": "pa-7",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.68",
+					"y": "0.51",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+				
+					{
+					"id": "pa-8",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.80",
+					"y": "0.42",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+					{
+					"id": "pa-9",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.80",
+					"y": "0.62",
+					"zoom": "2",
+					"pin": "p"
+				},
+				
+				{
+					"id": "pa-1",
+					"title": "Palapas",
+					"about": "palapas para uso libre",
+					"description": "Aprovecha nuestras areas de palapas",
+					"category": "Palapas",
+					"x": "0.075",
+					"y": "0.63",
+					"zoom": "2",
+					"pin": "p"
+				}
+			]
+		}
+	]
+}

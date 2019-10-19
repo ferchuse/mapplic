@@ -1,0 +1,92 @@
+{
+	"mapwidth": "600",
+	"mapheight": "500",
+	"categories": [],
+	"levels": [
+		{
+			"id":"booking",
+			"title":"Booking",
+			"map":"maps/booking.svg",
+			"locations": [
+				{
+					"id": "b5",
+					"title": "B5",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "b6",
+					"title": "B6",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "c4",
+					"title": "C4",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "c5",
+					"title": "C5",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "c6",
+					"title": "C6",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "e7",
+					"title": "E7",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "e8",
+					"title": "E8",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "g4",
+					"title": "G4",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "g8",
+					"title": "G8",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "g9",
+					"title": "G9",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "g10",
+					"title": "G10",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "g11",
+					"title": "G11",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				},
+				{
+					"id": "h4",
+					"title": "H4",
+					"action": "disabled",
+					"pin": "hidden unavailable"
+				}
+			]
+		}
+	]
+}
