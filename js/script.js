@@ -1,4 +1,24 @@
 /* Landing page scripts */
+
+
+function findObjectByKey(array, key, value) {
+	for (var i = 0; i < array.length; i++) {
+		if (array[i][key] === value) {
+			return array[i];
+		}
+	}
+	return null;
+}
+
+function findIndexByKey(array, key, value) {
+	for (var i = 0; i < array.length; i++) {
+		if (array[i][key] === value) {
+			return i;
+		}
+	}
+	return null;
+}
+
 $(document).ready(function() {
 	$('.usage').click(function(e) {
 		e.preventDefault();
@@ -53,6 +73,7 @@ $(document).ready(function() {
 			source_json = data;
 			
 			console.log("Data", self.o )
+			console.log("source_json", source_json )
 			
 			new_location = 
 			{
@@ -73,13 +94,17 @@ $(document).ready(function() {
 				
 			}
 			else{
-					//Actualiza la ubicacion
-				source_json.levels[0].locations.[new_location.id] =  new_location;
+				//Actualiza la ubicacion
+				// var obj = $.grep(objArray, function(obj){return obj.id === 3;})[0];	
+				var location_index = findIndexByKey(source_json.levels[0].locations, "id", $("#id_location").val())
+				
+				console.log("location_index", location_index);
+				source_json.levels[0].locations[location_index] =  new_location;
 				
 			}
 			
 			
-			console.log("New data", source_json);
+			console.log("New JSON", source_json);
 			
 			$.ajax({
 				url: "update_json.php",
@@ -94,6 +119,7 @@ $(document).ready(function() {
 				
 				alert(respuesta);
 				console.log(respuesta);
+				// window.location.reload(true);
 				
 			})
 			
