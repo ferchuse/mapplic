@@ -67,7 +67,17 @@ $(document).ready(function() {
 				"pin": $("#pin").val()
 			};
 			
-			source_json.levels[0].locations.push(new_location);
+			if($("#action").val() == "new"){
+				//Inserta una nueva ubicacion
+				source_json.levels[0].locations.push(new_location);
+				
+			}
+			else{
+					//Actualiza la ubicacion
+				source_json.levels[0].locations.[new_location.id] =  new_location;
+				
+			}
+			
 			
 			console.log("New data", source_json);
 			
