@@ -1,4 +1,9 @@
-/* Landing page scripts */
+/* Landing page scripts
+	
+	
+	let result = fruits.filter(fruit => fruit.length > 6);
+	
+*/
 
 
 function findObjectByKey(array, key, value) {
@@ -10,6 +15,13 @@ function findObjectByKey(array, key, value) {
 	return null;
 }
 
+function getCategories(categories) {
+	let categorias = categories.filter(category => category.id );
+	
+	
+	console.log();
+}
+
 function findIndexByKey(array, key, value) {
 	for (var i = 0; i < array.length; i++) {
 		if (array[i][key] === value) {
@@ -19,7 +31,19 @@ function findIndexByKey(array, key, value) {
 	return null;
 }
 
+
+
+function equalsId(element) {
+  return element == $("#id_location".val());
+}
+
+
+var source_json;
+
 $(document).ready(function() {
+	
+	
+	
 	$('.usage').click(function(e) {
 		e.preventDefault();
 		$('.editor-window').slideToggle(200);
@@ -44,7 +68,7 @@ $(document).ready(function() {
 	
 	
 	var map = $('#mapplic').mapplic({
-		source: 'locations/diospadre.json',
+		source: $("#source").val(),
 		height: 560,
 		hovertip: true,
 		mapfill: true,
@@ -63,13 +87,44 @@ $(document).ready(function() {
 	var self = map.data('mapplic');
 	
 	
+	$("#btn_borrar").click(function deleteLocation(){
+		console.log("deleteLocation()");
+		let id= $("#id_location").val();
+		
+		loadJsonData().done(function(response){
+			
+	
+		console.log("locations", response.levels.locations);
+		
+		let findIndex = response.levels.findIndex(equalsId);
+		console.log("findIndex", findIndex)
+		
+		var location_index = findIndexByKey(response.levels[0].locations, "id", $("#id_location").val())
+		
+		console.log("location_index", location_index);
+		response.levels[0].locations[location_index].splice(location_index);
+		
+			
+		})
+	
+	}
+	);
+	
+	
+	function loadJsonData(){
+		
+		return $.getJSON($("#source").val());
+	}
+	
+	
+	
 	$("#form_locations").submit( function saveLocation(e){
 		
-		var source_json;
+		
 		e.preventDefault();
 		console.log("Guardar Ubicacion")
 		
-		$.getJSON(self.o.source, function(data) {
+		$.getJSON($("#source").val(), function(data) {
 			source_json = data;
 			
 			console.log("Data", self.o )
@@ -93,13 +148,13 @@ $(document).ready(function() {
 				source_json.levels[0].locations.push(new_location);
 				
 			}
-			else{
-				//Actualiza la ubicacion
-				// var obj = $.grep(objArray, function(obj){return obj.id === 3;})[0];	
-				var location_index = findIndexByKey(source_json.levels[0].locations, "id", $("#id_location").val())
+			else{	var location_index = findIndexByKey(source_json.levels[0].locations, "id", $("#id_location").val())
 				
 				console.log("location_index", location_index);
 				source_json.levels[0].locations[location_index] =  new_location;
+				
+				//Actualiza la ubicacion
+				// var obj = $.grep(objArray, function(obj){return obj.id === 3;})[0];	
 				
 			}
 			
@@ -119,7 +174,7 @@ $(document).ready(function() {
 				
 				alert(respuesta);
 				console.log(respuesta);
-				// window.location.reload(true);
+				window.location.reload(true);
 				
 			})
 			
@@ -153,10 +208,16 @@ $(document).ready(function() {
 			let x_coord = $('.mapplic-coordinates-x').text();
 			let y_coord = $('.mapplic-coordinates-y').text();
 			
+			console.log("x_coord", x_coord);
+			console.log("y_coord", x_coord);
 			
 			
-			$("#x").val(x_coord.substring(0, x_coord.length - 5));
-			$("#y").val(y_coord.substring(0, y_coord.length - 5));
+			// $("#x").val(x_coord.substring(0, x_coord.length - 5));
+			// $("#y").val(y_coord.substring(0, y_coord.length - 5));
+			
+			
+			$("#x").val(x_coord);
+			$("#y").val(y_coord);
 			
 			
 			$(".pin_form").show();
@@ -237,6 +298,8 @@ $(document).ready(function() {
 	
 	
 });
+
+
 
 
 //https://dev.to/deinsoftware/how-to-make-crud-operations-in-json-12he

@@ -3,7 +3,7 @@
 	<head>
 		<!-- Meta -->
 		<meta charset="utf-8">
-		<title>Mapplic - Custom Interactive Map Plugin - Apartment Example</title>
+		<title></title>
 		
 		<!-- Viewport for Responsivity -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -24,6 +24,9 @@
 	<body>
 		<div id="wrap">
 			
+			
+			<input type="hidden" id="source" value="locations/<?php echo basename(__FILE__,".php");?>.json">
+			
 			<!-- Site header -->
 			<header id="header">
 				
@@ -34,20 +37,6 @@
 			<div id="content">
 				
 				<section id="map-section" class="inner over">
-					<div class="editor-window">
-						<div class="editor-body">
-							<code>
-								{<br>
-								&nbsp;&nbsp;&nbsp;"id": "newlandmark",<br>
-								&nbsp;&nbsp;&nbsp;"title": "New Landmark",<br>
-								&nbsp;&nbsp;&nbsp;"description": "Creating a new landmark is that easy!",<br>
-								&nbsp;&nbsp;&nbsp;"x": "<span class="mapplic-coordinates-x">0.0000</span>",<br>
-								&nbsp;&nbsp;&nbsp;"y": "<span class="mapplic-coordinates-y">0.0000</span>",<br>
-								&nbsp;&nbsp;&nbsp;...<br>
-								}
-							</code>
-						</div>
-					</div>
 					
 					<div class="map-container">
 						<div id="mapplic"></div> <!-- Map -->
@@ -71,7 +60,7 @@
 		
 		<div class="pin_form">
 			<form id="form_locations" autocomplete="off">
-				<input class="form-control input-sm" id="action" name="action" readonly>
+				<input class="form-control input-sm" id="action" name="action" readonly hidden>
 				<div class="">
 					<label >ID	</label >
 					<input class="form-control input-sm" id="id_location" name="id">
@@ -103,19 +92,23 @@
 						<option value="locations">Servicios</option>
 						<option value="sanitarios">Sanitarios</option>
 						<option value="estacionamientos">Estacionamientos</option>
+						<option value="Palapas">Palapas</option>
 					</select>
 				</div>
 				
 				<div class="form-groups">
 					<label >X	</label >
 					<input class="form-control" id="x" name="x">
-				</div>
+					</div>
 				
 				<div class="form-groups">
 					<label >Y	</label >
 					<input class="form-control" id="y" name="y">
 				</div>
 				
+				<button id="btn_borrar" class="btn btn-danger" type="button">
+					Borrar
+				</button>
 				<button id="" class="btn btn-success">
 					Guardar
 				</button>
