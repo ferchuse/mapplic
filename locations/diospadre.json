@@ -1,1 +1,758 @@
-{"bottomLat":"20.463446","categories":[{"color":"#63aa9c","id":"locations","show":"true","title":"Servicios"},{"color":"#4cd3b8","id":"sanitarios","show":"true","title":"Sanitarios"},{"color":"#4cd3b8","id":"Palapas","show":"true","title":"Palapas"},{"color":"#4cd3b8","id":"estacionamientos","show":"true","title":"Estacionamientos"}],"leftLng":"-99.191005","levels":[{"id":"upper","locations":[{"about":"Your Geolocation","description":"<p>You can show the visitor's location with some code presented in this example.</p>","id":"pos","label":"Position","pin":"pin-label pin-ribbon","title":"Position","x":"0.5","y":"0.5"},{"about":"Ven a Jugar","category":"locations","description":"<p>Ven a jugar</p>","id":"22","pin":"b","title":"Campo Futbol","x":"0.72","y":"0.046","zoom":"2"},{"about":"Interno","category":"estacionamientos","description":"Espacio interno de estacionamiento para nuestos visitantes","id":"E2","pin":"E","title":"Estacionamiento","x":"0.70","y":"0.76","zoom":"2"},{"about":"Interno","category":"estacionamientos","description":"Espacio interno de estacionamiento para nuestos visitantes","id":"E3","pin":"E","title":"Estacionamiento","x":"0.53","y":"0.77","zoom":"2"},{"about":"Interno","category":"estacionamientos","description":"Espacio interno de estacionamiento para nuestos visitantes","id":"E4","pin":"E","title":"Estacionamiento","x":"0.31","y":"0.80","zoom":"2"},{"about":"Interno","category":"estacionamientos","description":"Espacio interno de estacionamiento para nuestos visitantes","id":"E5","pin":"E","title":"Estacionamiento","x":"0.50","y":"0.20","zoom":"2"},{"about":"servicio de sanitarios","category":"sanitarios","description":"sanitarios","id":"Sa-2","pin":"s","title":"Sanitarios","x":"0.75","y":"0.42","zoom":"2"},{"about":"servicio de sanitarios","category":"sanitarios","description":"sanitarios","id":"Sa-3","pin":"s","title":"Sanitarios","x":"0.64","y":"0.43","zoom":"2"},{"about":"servicio de sanitarios","category":"sanitarios","description":"sanitarios","id":"Sa-4","pin":"s","title":"Sanitarios","x":"0.76","y":"0.68","zoom":"2"},{"about":"servicio de sanitarios","category":"sanitarios","description":"sanitarios","id":"Sa-5","pin":"s","title":"Sanitarios","x":"0.53","y":"0.299","zoom":"2"},{"about":"servicio de sanitarios","category":"sanitarios","description":"sanitarios","id":"Sa-6","pin":"s","title":"Sanitarios","x":"0.11","y":"0.54","zoom":"2"},{"id":"Sa-1","title":"Sanitariosaaaaaaa","about":"servicio de sanitarios","description":"sanitarios","category":"sanitarios","x":"0.81","y":"0.14","zoom":"2","pin":"s"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-2","pin":"p","title":"Palapas","x":"0.24","y":"0.54","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-3","pin":"p","title":"Palapas","x":"0.36","y":"0.41","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-4","pin":"p","title":"Palapas","x":"0.42","y":"0.57","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-5","pin":"p","title":"Palapas","x":"0.53","y":"0.41","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-6","pin":"p","title":"Palapas","x":"0.58","y":"0.51","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-7","pin":"p","title":"Palapas","x":"0.68","y":"0.51","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-8","pin":"p","title":"Palapas","x":"0.80","y":"0.42","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-9","pin":"p","title":"Palapas","x":"0.80","y":"0.62","zoom":"2"},{"about":"palapas para uso libre","category":"Palapas","description":"Aprovecha nuestras areas de palapas","id":"pa-1","pin":"p","title":"Palapas","x":"0.075","y":"0.63","zoom":"2"},{"about":"erwerwe","category":"Palapas","description":"werwer","id":"test2","pin":"pin","title":"rerer","x":"0.58410","y":"0.16090","zoom":"2"}],"map":"maps/apartment/upper.jpg","minimap":"maps/apartment/upper-small.jpg","title":"Upper Level"}],"mapheight":"1810","mapwidth":"2500","rightLng":"-99.188967","topLat":"20.464563"}
+{
+    "bottomLat": "20.463446",
+    "categories": [{
+            "color": "#63aa9c",
+            "id": "locations",
+            "show": "true",
+            "title": "Servicios"
+        }, {
+            "color": "#4cd3b8",
+            "id": "sanitarios",
+            "show": "true",
+            "title": "Sanitarios"
+        }, {
+            "color": "#4cd3b8",
+            "id": "Palapas",
+            "show": "true",
+            "title": "Palapas"
+        }, {
+            "color": "#4cd3b8",
+            "id": "estacionamientos",
+            "show": "true",
+            "title": "Estacionamientos"
+        }
+    ],
+    "leftLng": "-99.191005",
+    "levels": [{
+            "id": "upper",
+            "map": "maps/diospadre.jpg",
+            "minimap": "maps/diospadre.jpg",
+            "title": "Upper Level",
+            "locations": [{
+                    "about": "Your Geolocation",
+                    "description": "<p>You can show the visitor's location with some code presented in this example.</p>",
+                    "id": "pos",
+                    "label": "Position",
+                    "pin": "pin-label pin-ribbon",
+                    "title": "Position",
+                    "x": "0.5",
+                    "y": "0.5"
+                }, {
+                    "about": "Ven a Jugar",
+                    "category": "locations",
+                    "description": "<p>Ven a jugar</p>",
+                    "id": "22",
+                    "pin": "b",
+                    "title": "Campo Futbol",
+                    "x": "0.72",
+                    "y": "0.046",
+                    "zoom": "2"
+                }, {
+                    "id": "E2",
+                    "title": "Estacionamiento",
+                    "about": "Interno",
+                    "description": "Espacio interno de estacionamiento para nuestos visitantes",
+                    "category": "estacionamientos",
+                    "x": "0.70",
+                    "y": "0.76",
+                    "zoom": "2",
+                    "pin": "e"
+                }, {
+                    "id": "E3",
+                    "title": "Estacionamiento 1",
+                    "about": "Interno",
+                    "description": "Espacio interno de estacionamiento para nuestros visitantes Ã±o",
+                    "category": "estacionamientos",
+                    "x": "0.53",
+                    "y": "0.77",
+                    "zoom": "2",
+                    "pin": "e"
+                }, {
+                    "id": "E4",
+                    "title": "Estacionamiento",
+                    "about": "Interno",
+                    "description": "Espacio interno de estacionamiento para nuestos visitantes",
+                    "category": "estacionamientos",
+                    "x": "0.31",
+                    "y": "0.80",
+                    "zoom": "2",
+                    "pin": "e"
+                }, {
+                    "id": "E5",
+                    "title": "Estacionamiento",
+                    "about": "Interno",
+                    "description": "Espacio interno de estacionamiento para nuestos visitantes",
+                    "category": "estacionamientos",
+                    "x": "0.50",
+                    "y": "0.20",
+                    "zoom": "2",
+                    "pin": "e"
+                }, {
+                    "about": "servicio de sanitarios",
+                    "category": "sanitarios",
+                    "description": "sanitarios",
+                    "id": "Sa-2",
+                    "pin": "s",
+                    "title": "Sanitarios",
+                    "x": "0.75",
+                    "y": "0.42",
+                    "zoom": "2"
+                }, {
+                    "about": "servicio de sanitarios",
+                    "category": "sanitarios",
+                    "description": "sanitarios",
+                    "id": "Sa-3",
+                    "pin": "s",
+                    "title": "Sanitarios",
+                    "x": "0.64",
+                    "y": "0.43",
+                    "zoom": "2"
+                }, {
+                    "about": "servicio de sanitarios",
+                    "category": "sanitarios",
+                    "description": "sanitarios",
+                    "id": "Sa-4",
+                    "pin": "s",
+                    "title": "Sanitarios",
+                    "x": "0.76",
+                    "y": "0.68",
+                    "zoom": "2"
+                }, {
+                    "about": "servicio de sanitarios",
+                    "category": "sanitarios",
+                    "description": "sanitarios",
+                    "id": "Sa-5",
+                    "pin": "s",
+                    "title": "Sanitarios",
+                    "x": "0.53",
+                    "y": "0.299",
+                    "zoom": "2"
+                }, {
+                    "about": "servicio de sanitarios",
+                    "category": "sanitarios",
+                    "description": "sanitarios",
+                    "id": "Sa-6",
+                    "pin": "s",
+                    "title": "Sanitarios",
+                    "x": "0.11",
+                    "y": "0.54",
+                    "zoom": "2"
+                }, {
+                    "id": "Sa-1",
+                    "title": "Sanitarios",
+                    "about": "servicio de sanitarios",
+                    "description": "sanitarios",
+                    "category": "sanitarios",
+                    "x": "0.81",
+                    "y": "0.14",
+                    "zoom": "2",
+                    "pin": "s"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-2",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.24",
+                    "y": "0.54",
+                    "zoom": "2"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-3",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.36",
+                    "y": "0.41",
+                    "zoom": "2"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-4",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.42",
+                    "y": "0.57",
+                    "zoom": "2"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-5",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.53",
+                    "y": "0.41",
+                    "zoom": "2"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-6",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.58",
+                    "y": "0.51",
+                    "zoom": "2"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-7",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.68",
+                    "y": "0.51",
+                    "zoom": "2"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-8",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.80",
+                    "y": "0.42",
+                    "zoom": "2"
+                }, {
+                    "about": "palapas para uso libre",
+                    "category": "Palapas",
+                    "description": "Aprovecha nuestras areas de palapas",
+                    "id": "pa-9",
+                    "pin": "p",
+                    "title": "Palapas",
+                    "x": "0.80",
+                    "y": "0.62",
+                    "zoom": "2"
+                }, {
+                    "id": "pa-1",
+                    "title": "Palapas",
+                    "about": "palapas para uso libre",
+                    "description": "Aprovecha nuestras Ã¡reas de palapas",
+                    "category": null,
+                    "x": "0.075",
+                    "y": "0.63",
+                    "zoom": "2",
+                    "pin": "p"
+                }, {
+                    "id": "test2",
+                    "title": "Taquilla 3",
+                    "about": "",
+                    "description": "taquilla nÂº 3 para acceso al parque",
+                    "category": null,
+                    "x": "0.6293",
+                    "y": "0.235",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpza1",
+                    "title": "zona de acampado",
+                    "about": "",
+                    "description": "Si eres amante de la naturaleza el Ã¡rea de campamento es ideal para ti, pasa una velada inigualable en el Balneario Dios Padre. (Cuenta con Vigilancia, Alumbrado, Sanitarios y Regaderas)",
+                    "category": "locations",
+                    "x": "0.76450",
+                    "y": "0.17920",
+                    "zoom": "2",
+                    "pin": "za"
+                }, {
+                    "id": "dpac1",
+                    "title": "Comedor",
+                    "about": "Zona de Comida",
+                    "description": "Disfruta de diversos platillos, el comedor se encuentra dentro del Ã¡rea del hotel",
+                    "category": "locations",
+                    "x": "0.71430",
+                    "y": "0.26620",
+                    "zoom": "2",
+                    "pin": "c"
+                }, {
+                    "id": "do1",
+                    "title": "Entrada pricipal",
+                    "about": "",
+                    "description": "",
+                    "category": "locations",
+                    "x": "0.14900",
+                    "y": "0.83040",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "asd",
+                    "title": "asd",
+                    "about": "asd",
+                    "description": "asd",
+                    "category": "locations",
+                    "x": "0.53080",
+                    "y": "0.79780",
+                    "zoom": "2",
+                    "pin": "e"
+                }, {
+                    "id": "dpas1",
+                    "title": "Asadores",
+                    "about": "Ãrea de asadores",
+                    "description": "Ãrea de asadores gratuitos ",
+                    "category": "locations",
+                    "x": "0.57",
+                    "y": "0.47260",
+                    "zoom": "2",
+                    "pin": "a"
+                }, {
+                    "id": "dpt1",
+                    "title": "Tienda",
+                    "about": "Tienda",
+                    "description": "Venta de diversos artÃ­culos de abarrotes",
+                    "category": "locations",
+                    "x": "0.10480",
+                    "y": "0.65310",
+                    "zoom": "2",
+                    "pin": "t"
+                }, {
+                    "id": "dptempoli",
+                    "title": "Agua termal a 27ÂºC",
+                    "about": "Temperatura del agua",
+                    "description": "Alberca OlÃ­mpica con agua termal a 27ÂºC",
+                    "category": "locations",
+                    "x": "0.15890",
+                    "y": "0.62510",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dpalboli",
+                    "title": "Albeca OlÃ­mpica",
+                    "about": "Alberca",
+                    "description": "Tiene una longitud de 50 X 21 m., y una profundidad de 1.50 metros, con una temperatura promedio de 27ÂºC.",
+                    "category": "locations",
+                    "x": "0.19290",
+                    "y": "0.59380",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpenf1",
+                    "title": "EnfermerÃ­a",
+                    "about": "EnfermerÃ­a",
+                    "description": "Primeros auxilios",
+                    "category": "locations",
+                    "x": "0.2399",
+                    "y": "0.66",
+                    "zoom": "2",
+                    "pin": "en"
+                }, {
+                    "id": "dpcana",
+                    "title": "Canaleta",
+                    "about": "Canaleta",
+                    "description": "Zona de canaleta de agua",
+                    "category": "locations",
+                    "x": "0.23200",
+                    "y": "0.62240",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptech",
+                    "title": "Techados",
+                    "about": "Zona de Techados",
+                    "description": "La zona de techados es un Ã¡rea dispuesta para lavar",
+                    "category": "locations",
+                    "x": "0.26180",
+                    "y": "0.59350",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptaqui1",
+                    "title": "Taquilla Principal",
+                    "about": "Taquilla",
+                    "description": "Taquilla principal de acceso al parque acuÃ¡tico",
+                    "category": "locations",
+                    "x": "0.34010",
+                    "y": "0.63",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpmasa",
+                    "title": "Ãrea de Masajes",
+                    "about": "Masajes",
+                    "description": "Disfruta de nuestros diversos masajes para relajarte",
+                    "category": "locations",
+                    "x": "0.42980",
+                    "y": "0.62480",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpanat",
+                    "title": "ArtÃ­culos de NataciÃ³n",
+                    "about": "Venta de artÃ­culos de nataciÃ³n",
+                    "description": "En esta Ã¡rea podrÃ¡s adquirir diversos artÃ­culos de nataciÃ³n",
+                    "category": "locations",
+                    "x": "0.45060",
+                    "y": "0.65610",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptaqui2",
+                    "title": "Taquilla 2",
+                    "about": "Taquilla 2",
+                    "description": "Taquilla de acceso al parque",
+                    "category": "locations",
+                    "x": "0.59380",
+                    "y": "0.67290",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpvolei",
+                    "title": "Cancha de Voleibol",
+                    "about": "Cancha de Voleibol de Playa",
+                    "description": "Disfruta un partido amistoso entre amigos y familiares en nuestra cancha de voleibol de playa de acceso libre",
+                    "category": "locations",
+                    "x": "0.66660",
+                    "y": "0.61070",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpsirena",
+                    "title": "Playa Sirena",
+                    "about": "Alberca de Olas Playa Sirena",
+                    "description": " Esta gran alberca de olas tiene la capacidad para 1200 personas, ademas cuenta con una Ã¡rea infantil.",
+                    "category": "locations",
+                    "x": "0.79100",
+                    "y": "0.53390",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptempsir",
+                    "title": "Agua termal a 24ÂºC",
+                    "about": "Temperatura del Agua",
+                    "description": "Nuestra alberca de olas playa sirena tiene una temperatura promedio de 24ÂºC",
+                    "category": "locations",
+                    "x": "0.83240",
+                    "y": "0.51390",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dpmiche1",
+                    "title": "Micheladas",
+                    "about": "Venta de Michleladas",
+                    "description": "Disfruta de una refrescante michelada  en sus diferentes variedades",
+                    "category": "locations",
+                    "x": "0.73500",
+                    "y": "0.48850",
+                    "zoom": "2",
+                    "pin": "m"
+                }, {
+                    "id": "dpenf2",
+                    "title": "EnfermerÃ­a",
+                    "about": "EnfermerÃ­a",
+                    "description": "Primeros auxilios",
+                    "category": "locations",
+                    "x": "0.73920",
+                    "y": "0.43310",
+                    "zoom": "2",
+                    "pin": "en"
+                }, {
+                    "id": "dprent1",
+                    "title": "Renta de Equipo",
+                    "about": "Renta de Equipo",
+                    "description": "Renta de sillas y mesas",
+                    "category": "locations",
+                    "x": "0.67340",
+                    "y": "0.43870",
+                    "zoom": "2",
+                    "pin": "r"
+                }, {
+                    "id": "dpzcom",
+                    "title": "Zona de comida",
+                    "about": "Zona de comida",
+                    "description": "Cocinas econÃ³micas y comida tÃ­pica de la regiÃ³n",
+                    "category": "locations",
+                    "x": "0.63",
+                    "y": "0.48",
+                    "zoom": "2",
+                    "pin": "c"
+                }, {
+                    "id": "dpt2",
+                    "title": "Tienda",
+                    "about": "Tienda",
+                    "description": "Venta de diversos artÃ­culos de abarrotes",
+                    "category": "locations",
+                    "x": "0.53100",
+                    "y": "0.46250",
+                    "zoom": "2",
+                    "pin": "t"
+                }, {
+                    "id": "dpalinf",
+                    "title": "Alberca Infantil",
+                    "about": "Alberca Infantil",
+                    "description": "AquÃ­ los chiquitines encontrarÃ¡n dos toboganes abiertos, dos cerrados, dos cubetas, seis resbaladillas, una rana, un pulpo, una ballena, un dragÃ³n y una foca",
+                    "category": "locations",
+                    "x": "0.45790",
+                    "y": "0.45480",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptempinf",
+                    "title": "Agua termal a 26ÂºC",
+                    "about": "Temperatura del Agua",
+                    "description": "Nuestra alberca infantil tienen una temperatura de 26ÂºC",
+                    "category": "locations",
+                    "x": "0.49460",
+                    "y": "0.52100",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dpasa2",
+                    "title": "Asadores",
+                    "about": "Ãrea de asadores",
+                    "description": "Ãrea de asadores gratuitos",
+                    "category": "locations",
+                    "x": "0.48830",
+                    "y": "0.42210",
+                    "zoom": "2",
+                    "pin": "a"
+                }, {
+                    "id": "dpmiche2",
+                    "title": "Micheladas",
+                    "about": "Venta de micheladas",
+                    "description": "Disfruta de una refrescante michelada en sus diferentes variedades",
+                    "category": "locations",
+                    "x": "0.45270",
+                    "y": "0.41120",
+                    "zoom": "2",
+                    "pin": "m"
+                }, {
+                    "id": "dpt3",
+                    "title": "Tienda",
+                    "about": "Tienda",
+                    "description": "Venta de diversos artÃ­culos de abarrotes",
+                    "category": "locations",
+                    "x": "0.40470",
+                    "y": "0.42240",
+                    "zoom": "2",
+                    "pin": "t"
+                }, {
+                    "id": "dprent2",
+                    "title": "Renta de mobiliario",
+                    "about": "Renta de mobiliario",
+                    "description": "Renta de sillas y mesas",
+                    "category": "locations",
+                    "x": "0.34480",
+                    "y": "0.46360",
+                    "zoom": "2",
+                    "pin": "r"
+                }, {
+                    "id": "dpreves",
+                    "title": "Regaderas y Vestidores",
+                    "about": "Ãrea de regaderas y vestidores",
+                    "description": "Ãrea de regaderas y vestidores",
+                    "category": "locations",
+                    "x": "0.34690",
+                    "y": "0.50690",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpbar",
+                    "title": "Bar",
+                    "about": "Bar Karaoke",
+                    "description": "BAR KARAOKE & BILLAR dentro de las instalaciones del Parque AcuÃ¡tico Dios Padre, ven, conÃ³cenos y diviÃ©rtete, pasando momentos agradables con tu familia y amigos",
+                    "category": "locations",
+                    "x": "0.31780",
+                    "y": "0.51180",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpt4",
+                    "title": "Tienda",
+                    "about": "Tienda",
+                    "description": "Venta de diversos artÃ­culos de abarrotes",
+                    "category": "locations",
+                    "x": "0.29210",
+                    "y": "0.50000",
+                    "zoom": "2",
+                    "pin": "t"
+                }, {
+                    "id": "dpmiche3",
+                    "title": "Micheladas",
+                    "about": "Venta de micheladas",
+                    "description": "Disfruta de una refrescante michelada en sus diferentes variedades",
+                    "category": "locations",
+                    "x": "0.27660",
+                    "y": "0.50890",
+                    "zoom": "2",
+                    "pin": "m"
+                }, {
+                    "id": "dpojo",
+                    "title": "Ojo de Agua",
+                    "about": "Pozas con agua termal",
+                    "description": "Uno de los grandes atractivos del balneario sin duda es su âOjo de aguaâ, de donde emana un volumen de 100 litros por segundo. En esta Ã¡rea encontrarÃ¡s pozas en donde podrÃ¡s disfrutar de sus relajantes aguas termales",
+                    "category": "locations",
+                    "x": "0.29840",
+                    "y": "0.40600",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptempojo",
+                    "title": "Agua termal a 36ÂºC",
+                    "about": "Temperatura del agua",
+                    "description": "El ojo de agua cuenta con aguas termales a 36ÂºC",
+                    "category": "locations",
+                    "x": "0.26700",
+                    "y": "0.42150",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dpalbtreb",
+                    "title": "Alberca TrÃ©bol",
+                    "about": "Alberca TrÃ©bol",
+                    "description": "Es una alberca familiar, con una superficie de 600 mÂ² y una profundidad de 90 cm la parte mÃ¡s baja y de 1.50m., la parte mÃ¡s profunda cuenta con un geiser artificial de 7 metros de altura, cuenta con juegos en forma de barco, mariposa y hongo",
+                    "category": "locations",
+                    "x": "0.19660",
+                    "y": "0.45850",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptemptreb",
+                    "title": "Agua termal a 30ÂºC",
+                    "about": "Temperatura del agua",
+                    "description": "La alberca trÃ©bol cuenta con agua termal a 30ÂºC",
+                    "category": "locations",
+                    "x": "0.18830",
+                    "y": "0.50210",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dptemptreb",
+                    "title": "Agua termal a 30ÂºC",
+                    "about": "Temperatura del agua",
+                    "description": "La alberca trÃ©bol cuenta con agua termal a 30ÂºC",
+                    "category": "locations",
+                    "x": "0.18830",
+                    "y": "0.50210",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dpzcom2",
+                    "title": "Zona de comida",
+                    "about": "Zona de comida",
+                    "description": "Cocinas econÃ³micas y comida tÃ­pica de la regiÃ³n",
+                    "category": "locations",
+                    "x": "0.23",
+                    "y": "0.37",
+                    "zoom": "2",
+                    "pin": "z"
+                }, {
+                    "id": "dpmiche4",
+                    "title": "Micheladas",
+                    "about": "Venta de micheladas",
+                    "description": "Disfruta de una refrescante michelada en sus diferentes variedades",
+                    "category": "locations",
+                    "x": "0.24790",
+                    "y": "0.37260",
+                    "zoom": "2",
+                    "pin": "m"
+                }, {
+                    "id": "dpt5",
+                    "title": "Tienda",
+                    "about": "Tienda",
+                    "description": "Venta de diversos artÃ­culos de abarrotes",
+                    "category": "locations",
+                    "x": "0.26170",
+                    "y": "0.36980",
+                    "zoom": "2",
+                    "pin": "t"
+                }, {
+                    "id": "dpzcom3",
+                    "title": "Zona de comida",
+                    "about": "Zona de comida",
+                    "description": "Cocinas econÃ³micas y comida tÃ­pica de la regiÃ³n",
+                    "category": "locations",
+                    "x": "0.30720",
+                    "y": "0.35250",
+                    "zoom": "2",
+                    "pin": "z"
+                }, {
+                    "id": "dpalbcer",
+                    "title": "Alberca Ceremonial",
+                    "about": "Alberca Ceremonial",
+                    "description": "Esta alberca esta dispuesta para la celebraciÃ³n de diversos eventos sociales y religiosos",
+                    "category": "locations",
+                    "x": "0.36420",
+                    "y": "0.34770",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptempcer",
+                    "title": "Agua termal a 26ÂºC",
+                    "about": "Temperatura del agua",
+                    "description": "Nuestra alberca ceremonial cuenta con agua termal a 26ÂºC",
+                    "category": "locations",
+                    "x": "0.38170",
+                    "y": "0.35030",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dptobo",
+                    "title": "Toboganes",
+                    "about": "Toboganes",
+                    "description": "La altura de la torre es de 18 metros con la palapa, actualmente cuenta con un tobogÃ¡n abierto de 50 m y otro de 70 m, cuenta con un multicanal de 4 carriles, de 90 metros de longitud",
+                    "category": "locations",
+                    "x": "0.50",
+                    "y": "0.36",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dptemptob",
+                    "title": "Agua termal a 28ÂºC",
+                    "about": "Temperatura del agua",
+                    "description": "La zona de toboganes cuenta con agua termal a 28ÂºC",
+                    "category": "locations",
+                    "x": "0.48280",
+                    "y": "0.37370",
+                    "zoom": "2",
+                    "pin": "al"
+                }, {
+                    "id": "dpsalon",
+                    "title": "SalÃ³n de Eventos",
+                    "about": "SalÃ³n de Eventos",
+                    "description": "Celebra en nuestras instalaciones eventos sociales y religiosas",
+                    "category": "locations",
+                    "x": "0.42520",
+                    "y": "0.24800",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dpfut",
+                    "title": "Mini cancha de fÃºtbol",
+                    "about": "Mini cancha de fÃºtbol",
+                    "description": "Juega entre familiares y amigos en nuestra cancha de fÃºtbol de acceso gratis",
+                    "category": "locations",
+                    "x": "0.56900",
+                    "y": "0.26610",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "dphotel",
+                    "title": "Hotel",
+                    "about": "Hotel",
+                    "description": "HospÃ©date en una de nuestras cÃ³modas habitaciones",
+                    "category": "locations",
+                    "x": "0.82670",
+                    "y": "0.28870",
+                    "zoom": "2",
+                    "pin": "b"
+                }, {
+                    "id": "testtttt",
+                    "title": "test",
+                    "about": "",
+                    "description": "",
+                    "category": "locations",
+                    "x": "0.7960",
+                    "y": "0.0466",
+                    "zoom": "2",
+                    "pin": ""
+                }
+            ]
+        }
+    ],
+    "mapheight": "1810",
+    "mapwidth": "2500",
+    "rightLng": "-99.188967",
+    "topLat": "20.464563"
+}
