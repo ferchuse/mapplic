@@ -2,7 +2,7 @@
 
 <?php
   header('Content-Type: text/plain');
-  $data = utf8_encode($_POST['json']); 
+  // $data = utf8_encode($_POST['json']); 
   // $data = json_decode($test);
 	
 	try{
