@@ -1367,7 +1367,7 @@ g.mapplic-active > * {
 }
 
 /* estacionamiento */
-.E{ /* replace 'my-new-pin' with the name of your pin */
+.e{ /* replace 'my-new-pin' with the name of your pin */
 	background-image: url(images/E.png); /* define the path to image file */
 	background-size: 20px 30px;
 	width: 20px;
@@ -1406,7 +1406,7 @@ g.mapplic-active > * {
 }
 /* micheladas */
 .m{ /* replace 'my-new-pin' with the name of your pin */
-	background-image: url(images/s.png); /* define the path to image file */
+	background-image: url(images/m.png); /* define the path to image file */
 	background-size: 20px 30px;
 	width: 20px;
 	height: 30px;
@@ -1466,7 +1466,7 @@ g.mapplic-active > * {
 
 /* Zona de acampar */
 .za{ /* replace 'my-new-pin' with the name of your pin */
-	background-image: url(images/s.png); /* define the path to image file */
+	background-image: url(images/za.png); /* define the path to image file */
 	background-size: 20px 30px;
 	width: 20px;
 	height: 30px;
